@@ -22,7 +22,7 @@ Install necessary packages from PyPI using `pip`.
 pip install -r requirements.txt
 ```
 
-## Using Boilerplate
+## Using Packages
 
 ### Pytest
 
@@ -48,3 +48,13 @@ To automatically generate documentation from your code, go to `/docs` and run
 make autodocs
 make html
 ```
+
+## Using Boilerplate
+
+1. Fork this repository by pressing the 'Fork' button.
+
+2. Find all instances of `package_name` in your forked repository and replace them with your own package name.
+
+3. Change the copyright and author information in `docs/source/conf.py`.
+
+4. Connect your repository with Travis CI by visiting [travis-ci.org](https://travis-ci.org). Change status image in `README.md`.
