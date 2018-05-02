@@ -6,6 +6,7 @@ A simple Hello World script to setup architecture.
 def hello_world():
     """
     A simple Hello World function that returns the string 'Hello World.'
+
     Returns
     -------
     str
