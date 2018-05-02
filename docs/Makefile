@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = package
+SPHINXPROJ    = package_name
 SOURCEDIR     = source
 BUILDDIR      = build
 
@@ -16,7 +16,7 @@ help:
 
 autodoc:
 	cd source/
-	sphinx-apidoc -f -o source/ ../package/ ../package/tests
+	sphinx-apidoc -f -o source/ ../package_name/ ../package_name/tests
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).

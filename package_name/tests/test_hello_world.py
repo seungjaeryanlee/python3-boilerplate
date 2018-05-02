@@ -1,7 +1,7 @@
 """
 A simple test script for hello_world.py.
 """
-from package import hello_world
+from package_name import hello_world
 
 
 def test_hello_world_output():
