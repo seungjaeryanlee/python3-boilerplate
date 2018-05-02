@@ -1,4 +1,7 @@
 # Python 3 Boilerplate
+
+[![Build Status](https://travis-ci.org/seungjaeryanlee/python3-boilerplate.svg?branch=master)](https://travis-ci.org/seungjaeryanlee/python3-boilerplate)
+
 This is a simple boilerplate (project template) for Python 3.
 
 ## Packages
